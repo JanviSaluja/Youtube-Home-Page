@@ -6,3 +6,26 @@
     width:300px;   
 }
 
+.channel{
+    border-radius: 40px ;
+    height:45px;
+    width:45px;
+}
+
+.video-preview{
+    width:300px;
+    display: inline-block;
+    vertical-align: top;
+    margin:15px;
+}
+
+.channel-pic{
+    display: inline-block;
+    width:50px;
+    vertical-align: top;
+    margin-top: 15px;
+}
+.channel-info{
+    display: inline-block;
+    width:240px;
+}
