@@ -1,45 +1,58 @@
 p{
     font-family: Roboto, Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .Search-bar{
     display:block;
 }
 
+.thumbnail-content{
+    margin-bottom: 12px;
+}
+
 .thumbnail{
     width:300px;   
 }
 
-.channel{
+.profile-picture{
     border-radius: 40px ;
-    height:45px;
-    width:45px;
+    width: 40px;
 }
 
 .video-preview{
     width:300px;
     display: inline-block;
     vertical-align: top;
-    margin:15px;
+    margin-right:15px;
 }
 
 .channel-pic{
     display: inline-block;
     width:50px;
     vertical-align: top;
-    margin-top: 15px;
 }
 .channel-info{
     display: inline-block;
-    width:240px;
+    width:200px;
 }
 
 .video-name{
-    font-weight: bold;
+    font-weight: 500;
     font-size: 14px;
+    margin-top: 0px;
+    line-height: 20px;
+    margin-bottom: 12px;
 }
 
 .youtuber-name{
-    font-size: 11px;
+    font-size: 12px;
     color: rgb(96, 96, 96);
+    margin-bottom: 4px;
+}
+
+.video-info{
+    color: rgb(96, 96, 96);
+    font-size: 12px;
 }
