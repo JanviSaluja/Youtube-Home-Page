@@ -1,6 +1,8 @@
 /* general css */
 body{
     margin: 0;
+    padding-top:80px;
+    padding-left:90px;
 }
 
 p{
@@ -15,6 +17,14 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style:solid;
+    border-color: rgb(228,228,228);
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
 }
 
 .left-section{
@@ -116,6 +126,15 @@ p{
     border-radius: 16px;
 }
 
+/* sidebar layout css */
+.sidebar{
+    position:fixed;
+    left:0;
+    bottom:0;
+    top:55px;
+    width:70px;
+}
+
 /* video layout css */
 .video-grid{
     display:grid;
@@ -126,6 +145,20 @@ p{
 
 .thumbnail-content{
     margin-bottom: 12px;
+    position:relative;
+}
+
+.timestamp{
+    position: absolute;
+    color:white;
+    background-color: black;
+    bottom:10px;
+    right:5px;
+    font-family: Roboto, arial;
+    font-size:12px;
+    font-weight: 500;
+    padding:4px;
+    border-radius: 2px;
 }
 
 .thumbnail{
