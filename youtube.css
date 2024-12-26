@@ -25,6 +25,8 @@ p{
     top:0;
     left:0;
     right:0;
+    /* to make the header appear above the timestamp */
+    z-index:100;
 }
 
 .left-section{
@@ -121,6 +123,25 @@ p{
     height: 24px;
 }
 
+.notification-icon-container{
+    position: relative;
+}
+
+.notification-number{
+    position: absolute;
+    top:-2px;
+    right:-5px;
+    background-color: rgb(206, 9, 9);
+    color:white;
+    font-family: Roboto, arial;
+    font-size: 11px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+
 .profile-icon{
     height: 32px;
     border-radius: 16px;
@@ -132,7 +153,33 @@ p{
     left:0;
     bottom:0;
     top:55px;
+    background-color: white;
     width:70px;
+    z-index: 200;
+}
+
+.sidebar-link{
+    height:74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebar-link:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.sidebar-link img{
+    height: 24px;
+    margin-bottom: 4px;
+}
+
+.sidebar-link div{
+    font-family: Roboto, arial;
+    font-size: 10px;
+
 }
 
 /* video layout css */
