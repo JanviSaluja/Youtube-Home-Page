@@ -1,6 +1,4 @@
-# youtube Home Page Clone
- Youtube Home Page using HTML and CSS
-website link: 
+# YouTube Home Page Clone
 
 ## Languages used:
 - HTML
